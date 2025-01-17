@@ -48,4 +48,6 @@
 
 ## 환경
 
+[![Video Label](http://img.youtube.com/vi/qh8Oc4W31jw/0.jpg)](https://youtu.be/qh8Oc4W31jw)
 
+(이미지를 클릭하시면 플레이 영상이 있는 유튜브 링크로 넘어갑니다)
