@@ -82,7 +82,8 @@
 
 ### 데이터
 
-![1](https://github.com/user-attachments/assets/b3e023b4-1acc-4c22-9ae2-7320973ac186)
+![image](https://github.com/user-attachments/assets/efd79efc-1c20-4b7b-be5d-60f768590593)
+
 
 공격 1번당 데이터 1개를 구성함
 
@@ -103,3 +104,96 @@
 
 ## 변수 설명
 
+![image](https://github.com/user-attachments/assets/c929141f-0cbc-467a-b480-02d63fd5023c)
+
+### is_visualization
+
+: 매 공격시 50% 확률로 공격범위를 나타내는 바닥 장판이 보임 <br>
+범위 표시를 하게 될 경우 이 값이 true고, 아니면 false임
+
+![1](https://github.com/user-attachments/assets/885826f6-9fa6-4129-8665-6c781faf283f)
+
+<br>
+
+### is_dash
+
+: 멀리 있으면 돌진기 씀 <br>
+돌진기를 썼으면 이 값이 true고 아니면 false임
+
+![2](https://github.com/user-attachments/assets/61b5b252-0582-4bf0-aa6c-d179475a3a12)
+
+<br>
+
+### start_distance
+
+: 랜덤 실수값 500~1500 설정했었음 <br>
+몬스터 공격시작 탐지 범위, 해당 범위 밖이면 아무 것도 안함 <br>
+만약 이 값이 600이고 유저가 700거리에 있으면, 몬스터 아무 행동 안함
+
+<br>
+
+### start_delay
+
+: 랜덤 실수값 0.2~1.0 설정했었음 <br>
+유닛 탐지하고나서 본격적인 공격시작까지의 시간
+
+<br>
+
+### pre_delay
+
+: 랜덤 실수값 0.1~0.8 설정했었음 <br>
+공격시작 후, 모션을 들어 올리는 시간
+
+![3](https://github.com/user-attachments/assets/251c5806-4458-45c2-b5e7-9f7d684219ce)
+
+<br>
+
+### mid_delay
+
+: 랜덤 실수값 0.1~0.9 설정했었음 <br>
+모션 들어 올린 후, 멈추는 시간
+
+![4](https://github.com/user-attachments/assets/217fdfe9-db51-4b90-ba86-5033c74bb334)
+
+<br>
+
+### post_delay
+
+: 랜덤 실수값 0.1~0.7 설정했었음 <br>
+공격 모션 후, 최종적인 공격 유효타가 들어가는데 까지 걸리는 시간
+
+![5](https://github.com/user-attachments/assets/78a564c4-1e5f-4c64-b750-20f51771f6ee)
+
+<br>
+​
+
+## attack_size
+
+: 랜덤 실수값 175~275 설정했었음 <br>
+공격 범위임
+
+### attack_pattern
+
+: 공격 유형임, 1번부터 5번까지 있고 <br>
+1 2 3 4 5 번갈아가면서 씀 <br>
+1번 5번 패턴은 딜레이가 더 낮고, 대신 공격범위가 좀 더 작음 <br>
+2번 3번 4번 패턴은 위에 서술해둔 랜덤 범위값에서 정해짐 <br>
+
+<br>
+
+### attack_count
+
+: 한 유저에게 시행한 공격 횟수 <br>
+1부터 카운트 함
+
+<br>
+
+### is_hit
+
+: 유저가 공격에 피격되면 이 값이 true가 됨 <br>
+아예 안맞거나 blocked 되면 false임
+
+![6](https://github.com/user-attachments/assets/3f5937c8-6feb-40e7-8237-ae15f7514858)
+
+<br>
+​
