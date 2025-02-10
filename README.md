@@ -108,7 +108,11 @@
 
 ## 변수 설명
 
+<br>
+
 ![image](https://github.com/user-attachments/assets/c929141f-0cbc-467a-b480-02d63fd5023c)
+
+<br><br><br>
 
 ### is_visualization
 
